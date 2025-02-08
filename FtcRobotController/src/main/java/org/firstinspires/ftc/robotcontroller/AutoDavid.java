@@ -20,6 +20,10 @@ public class AutoDavid extends LinearOpMode {
 
     // Constante para convertir pulgadas a "ticks"
     static final double TICKS_PER_INCH = 273.35;
+    static final double CORR_MID = 0.001;
+    static final double CORR_MIA = 0.001;
+    static final double CORR_MDD = 0.001;
+    static final double CORR_MDA = 0.001;
 
     @Override
     public void runOpMode() {
